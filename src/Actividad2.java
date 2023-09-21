@@ -33,7 +33,10 @@ public class Actividad2 {
     }
 
     public static void program_results(String fullName, float gpa, char fg){
-        String result = String.format("Nombre del estudiante: %s \nCalificación 1: %.2f \nCalificación 2: %.2f \nCalificación 3: %.2f \nCalificación 4: %.2f \nCalificación 5: %.2f \nPromedio: %.2f \nCalificación: %c",fullName,grades[0],grades[1],grades[2],grades[3],grades[4],gpa,fg);
+        String result = String.format("Nombre del estudiante: %s \nCalificación 1: %.2f " +
+                "\nCalificación 2: %.2f \nCalificación 3: %.2f \nCalificación 4: %.2f " +
+                "\nCalificación 5: %.2f \nPromedio: %.2f \nCalificación: %c"
+                ,fullName,grades[0],grades[1],grades[2],grades[3],grades[4],gpa,fg);
         System.out.println(result);
     }
     public static void main(String[] args) {
